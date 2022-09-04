@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Zach Wilson
+ * Assignment 1
+ * Manages the score board text box in the top right hand screen of the Player UI
+ */ 
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Zach Wilson
+ * Assignment 1
+ * Manages the player inputs to control the character
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Zach Wilson
+ * Assignment 1
+ * Manages the score being added to the player's score when the player enters a TriggerZone
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

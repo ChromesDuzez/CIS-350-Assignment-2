@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Zach Wilson
+ * Assignment 1
+ * This script triggers the lose condition when the player falls off of the play area
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

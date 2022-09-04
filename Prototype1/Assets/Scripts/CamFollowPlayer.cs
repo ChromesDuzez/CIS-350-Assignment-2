@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Zach Wilson
+ * Assignment 1
+ * Manages the camera to properly follow the player object
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
