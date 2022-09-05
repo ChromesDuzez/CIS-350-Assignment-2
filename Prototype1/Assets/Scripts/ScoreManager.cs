@@ -16,6 +16,7 @@ public class ScoreManager : MonoBehaviour
     public static bool gameOver;
     public static bool won;
     public static int score;
+    public int scoreToWin;
 
     //set this in the inpsector
     public Text textbox;
@@ -35,7 +36,7 @@ public class ScoreManager : MonoBehaviour
             textbox.text = "Score: " + score;
         }
 
-        if(score>=3)
+        if(score>=scoreToWin)
         {
             won = true;
             gameOver = true;

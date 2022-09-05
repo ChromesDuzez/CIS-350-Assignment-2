@@ -1327,6 +1327,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42bad48b685535249b1a234a758058fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OffsetX: 0
+  OffsetY: 5
+  OffsetZ: -10
   player: {fileID: 1898455739}
 --- !u!1001 &578002886
 PrefabInstance:
@@ -4602,6 +4605,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e76c46099dd9d464cbc082fd27cf730f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minHeightCondition: -1
+  maxHeightCondition: 100
 --- !u!1 &1900608286
 GameObject:
   m_ObjectHideFlags: 0
@@ -4631,6 +4636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e83c93eb6fe4fb40b72b0f6b9b18ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreToWin: 3
   textbox: {fileID: 1192618601}
 --- !u!4 &1900608288
 Transform:

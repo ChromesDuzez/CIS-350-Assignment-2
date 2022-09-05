@@ -7,14 +7,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 //attach to the player
 public class LoseOnFall : MonoBehaviour
 {
+    public float minHeightCondition;
+    public float maxHeightCondition;
+
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.y < -1)
+        if(transform.position.y < minHeightCondition || transform.position.y > maxHeightCondition)
         {
             ScoreManager.gameOver = true;
         }
