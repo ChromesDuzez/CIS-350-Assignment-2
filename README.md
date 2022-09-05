@@ -1,2 +1,2 @@
-# CIS350_Prototype1
+# CIS-350 Assignment 2
  
