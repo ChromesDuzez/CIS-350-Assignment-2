@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* Zach Wilson
+ * Assignment 1
+ * Controles the rotation of the propeller spinning on the plane
+ */ 
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
